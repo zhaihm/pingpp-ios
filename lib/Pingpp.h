@@ -10,6 +10,13 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
+#define PINGPP_CHANNEL_ALIPAY   @"alipay"
+#define PINGPP_CHANNEL_WX       @"wx"
+#define PINGPP_CHANNEL_UPACP    @"upacp"    // 银联
+#define PINGPP_CHANNEL_BFB      @"bfb"      // 百度钱包
+
+#define PINGPP_NOTIFICATION_RETURN  @"PingppNotificationReturn"
+
 typedef NS_ENUM(NSUInteger, PingppErrorOption)
 {
     PingppErrInvalidCharge,
